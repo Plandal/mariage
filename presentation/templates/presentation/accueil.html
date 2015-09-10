@@ -1,0 +1,20 @@
+{% extends "presentation/base.html" %}
+{% load static %}
+{% block conteneur %}
+<!-- SLIDEBAR CONTENT WRAPPER -->
+	<div id=""sb-site" style="min-height: 556px; transform: translate(160px);">
+		<iframe id="frameyoutube" width="100%" height="100%" src="https://www.youtube.com/embed/oQV-GUsfGjY" frameborder="0" allowfullscreen></iframe>
+    </div>  <!-- END of SLIDEBAR CONTENT WRAPPER --> 
+<script type="text/javascript">
+if (document.body)
+{
+var haut = (document.body.clientHeight);
+}
+else
+{
+var haut = (window.innerHeight);
+}
+var youtube = document.getElementById("frameyoutube");
+youtube.height = haut;
+</script>
+{% endblock %}

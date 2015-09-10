@@ -1,0 +1,316 @@
+{% extends "presentation/base.html" %}
+{% load static %}
+{% block conteneur %}
+<!-- SLIDEBAR CONTENT WRAPPER -->
+	<div id="sb-site" style="min-height: 556px; transform: translate(160px);">
+      
+      	<!-- NAVIGATION -->
+        <header>
+        	<nav id="menuicon-bar" class="fluid-width menuicon-right">
+            	
+                <!-- LOGO -->
+                <div class="logo-outter-wrapper">
+            		<div class="logo-wrapper">
+                		<!-- CSS LOGO --> 
+                        <a href="index.html">
+                    		<div class="css-logo rounded">
+                   				<div class="css-logo-text">
+                        			<strong>G</strong><i class="de-icon-heart-1"></i><strong>D</strong>
+                    			</div>
+                    		</div>
+                        </a>
+                    
+                    	<!-- IMG LOGO 
+                        <a href="index.html">
+                    		<div class="img-logo">
+                    			<img src="images/slide1.jpg">
+                    		</div>
+                        </a>
+                        -->
+                	</div>
+                </div>
+                <!-- END of LOGO -->
+                        
+				<!-- MENU ICON -->
+				<div id="menu-icon">
+					<a href="#" class="sb-toggle-right">
+						<i class="de-icon-menu"></i>
+					</a>
+				</div>
+                
+                <!-- RESET FLOAT -->        
+				<div class="clearboth"></div>
+                
+                <!-- STICKY MENU ICON -->
+               	<div id="sticky-menuicon">
+                	<a href="#" class="sb-toggle-right">
+                    	<i class="de-icon-menu" ></i>
+                    </a>
+            	</div>
+                
+            </nav>
+           
+        </header><!-- END of NAVIGATION -->
+        
+        
+        <!--CONTENT SECTION-->
+        <section id="content">
+        
+        	<!-- CONTAINER-1 -->
+        	<div class="container">            
+            	
+                <!-- TITLE -->
+                <div class="row">
+                    <div class="col-md-offset-3 col-md-6 text-center">
+                    
+                        <div class="page-title">
+                        	<h1>BLOG</h1>
+                                                       
+                        	<div class="heart-divider">
+                            	<span class="grey-line"></span>
+                            	<i class="de-icon-heart pink-heart"></i>
+                            	<i class="de-icon-heart grey-heart"></i>
+                            	<span class="grey-line"></span>
+                        	</div>
+                            <p>
+                        		Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer ultrices malesuada ante quis pharetra. Nullam non bibendum dolor. Ut vel turpis 
+                       	 	</p>
+						</div>
+                        
+                	</div>
+				</div><!-- END of TITLE -->                
+                
+  			</div><!-- END of CONTAINER-1 -->
+            
+           	
+            
+            <!-- CONTAINER-2 -->
+            <div class="container">
+                	
+                <!-- BLOG ITEM ROW 1 -->    
+				<div class="row">
+                                  
+                    <!-- BLOG-ITEM-1 -->                        
+  					<div class="blog-wrapper col-md-offset-1 col-md-5">
+                            
+                   		<!--PHOTO-ITEM-->
+                      	<div class="photo-item animation fadeIn">
+								
+                        	<!--PHOTO-->
+                            <img src="{% static 'presentation/images/temoin1.jpg' %}" alt="" class="hover-animation image-zoom-in">
+                                            
+                            <!--PHOTO OVERLAY-->
+                           	<div class="layer wh100 hidden-black-overlay hover-animation fade-in">
+                            </div><!--END of PHOTO OVERLAY-->
+                                				                                    
+                            <!--ICON LINK-->
+                            <div class="layer wh100 hidden-link hover-animation delay1 fade-in">
+                            	<div class="alignment">
+                              		<div class="v-align center-middle">
+                                            
+                                 		<a href="{% static 'presentation/images/temoin1.jpg' %}" class="magnific-zoom">
+        									<div class="de-icon circle light medium-size inline">
+            									<i class="de-icon-zoom-in"></i>
+            								</div>
+        								</a>
+                                    </div>
+                     			</div>
+                          	</div><!--END of ICON LINK-->
+							
+						</div><!--END of PHOTO-ITEM--> 
+                                        
+                        <!-- TITLE & EXCERPT -->
+                        <div class="title-excerpt animation fadeIn">
+                        
+                        	
+                        	<h3><a href="#">OUR FIRST DATING</a></h3>
+                          	<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce urna urna, imperdiet et purus ut, ultricies sollicitudin arcu. Cras placerat, arcu non faucibus suscipit, ex arcu consectetur enim, eu .....</p>
+                            
+							<div class="de-icon circle very-small-size custom-heart-icon">
+            					<i class="de-icon-heart"></i>
+            				</div>
+                        </div><!-- END of TITLE & EXCERPT -->
+                            
+     				</div><!-- END of BLOG-ITEM-1 -->    
+                    
+                    
+                    <!-- BLOG-ITEM-2 -->                        
+  					<div class="blog-wrapper col-md-5">
+                            
+                   		<!--PHOTO-ITEM-->
+                      	<div class="photo-item animation fadeIn">
+								
+                        	<!--PHOTO-->
+                            <img src="{% static 'presentation/images/temoin2.jpg' %}" alt="" class="hover-animation image-zoom-in">
+                                            
+                            <!--PHOTO OVERLAY-->
+                           	<div class="layer wh100 hidden-black-overlay hover-animation fade-in">
+                            </div><!--END of PHOTO OVERLAY-->
+                                				                                    
+                            <!--ICON LINK-->
+                            <div class="layer wh100 hidden-link hover-animation delay1 fade-in">
+                            	<div class="alignment">
+                              		<div class="v-align center-middle">
+                                            
+                                 		<a href="{% static 'presentation/images/temoin2.jpg' %}" class="magnific-zoom">
+        									<div class="de-icon circle light medium-size inline">
+            									<i class="de-icon-zoom-in"></i>
+            								</div>
+        								</a>
+                                    </div>
+                     			</div>
+                          	</div><!--END of ICON LINK-->
+							
+						</div><!--END of PHOTO-ITEM--> 
+                                        
+                        <!-- TITLE & EXCERPT -->
+                        <div class="title-excerpt animation fadeIn">
+                        
+                        	<div class="de-icon circle very-small-size custom-heart-icon">
+            					<i class="de-icon-heart"></i>
+            				</div>
+                        	<h3><a href="#">LOVELY KISS</a></h3>
+                          	<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce urna urna, imperdiet et purus ut, ultricies sollicitudin arcu. Cras placerat, arcu non faucibus suscipit, ex arcu consectetur enim, eu .....</p>
+                            
+                        </div><!-- END of TITLE & EXCERPT -->
+                            
+     				</div><!-- END of BLOG-ITEM-2 -->    
+                     
+				</div><!-- END of BLOG ITEM ROW 1 -->
+                
+                
+                
+                <!-- BLOG ITEM ROW 2 -->    
+				<div class="row">
+                                  
+                    <!-- BLOG-ITEM-3 -->                        
+  					<div class="blog-wrapper col-md-offset-1 col-md-5">
+                            
+                   		<!--PHOTO-ITEM-->
+                      	<div class="photo-item animation fadeIn">
+								
+                        	<!--PHOTO-->
+                            <img src="{% static 'presentation/images/temoin3.jpg' %}" alt="" class="hover-animation image-zoom-in">
+                                            
+                            <!--PHOTO OVERLAY-->
+                           	<div class="layer wh100 hidden-black-overlay hover-animation fade-in">
+                            </div><!--END of PHOTO OVERLAY-->
+                                				                                    
+                            <!--ICON LINK-->
+                            <div class="layer wh100 hidden-link hover-animation delay1 fade-in">
+                            	<div class="alignment">
+                              		<div class="v-align center-middle">
+                                            
+                                 		<a href="{% static 'presentation/images/temoin3.jpg' %}" class="magnific-zoom">
+        									<div class="de-icon circle light medium-size inline">
+            									<i class="de-icon-zoom-in"></i>
+            								</div>
+        								</a>
+                                    </div>
+                     			</div>
+                          	</div><!--END of ICON LINK-->
+							
+						</div><!--END of PHOTO-ITEM--> 
+                                        
+                        <!-- TITLE & EXCERPT -->
+                        <div class="title-excerpt animation fadeIn">
+                        
+                        	<div class="de-icon circle very-small-size custom-heart-icon">
+            					<i class="de-icon-heart"></i>
+            				</div>
+                        	<h3><a href="#">HAPPY RING</a></h3>
+                          	<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce urna urna, imperdiet et purus ut, ultricies sollicitudin arcu. Cras placerat, arcu non faucibus suscipit, ex arcu consectetur enim, eu .....</p>
+                            
+                        </div><!-- END of TITLE & EXCERPT -->
+                            
+     				</div><!-- END of BLOG-ITEM-3 -->    
+                    
+                    
+                    <!-- BLOG-ITEM-4 -->                        
+  					<div class="blog-wrapper col-md-5">
+                            
+                   		<!--PHOTO-ITEM-->
+                      	<div class="photo-item animation fadeIn">
+								
+                        	<!--PHOTO-->
+                            <img src="{% static 'presentation/images/temoin4.jpg' %}" alt="" class="hover-animation image-zoom-in">
+                                            
+                            <!--PHOTO OVERLAY-->
+                           	<div class="layer wh100 hidden-black-overlay hover-animation fade-in">
+                            </div><!--END of PHOTO OVERLAY-->
+                                				                                    
+                            <!--ICON LINK-->
+                            <div class="layer wh100 hidden-link hover-animation delay1 fade-in">
+                            	<div class="alignment">
+                              		<div class="v-align center-middle">
+                                            
+                                 		<a href="{% static 'presentation/images/temoin4.jpg' %}" class="magnific-zoom">
+        									<div class="de-icon circle light medium-size inline">
+            									<i class="de-icon-zoom-in"></i>
+            								</div>
+        								</a>
+                                    </div>
+                     			</div>
+                          	</div><!--END of ICON LINK-->
+							
+						</div><!--END of PHOTO-ITEM--> 
+                                        
+                        <!-- TITLE & EXCERPT -->
+                        <div class="title-excerpt animation fadeIn">
+                        
+                        	<div class="de-icon circle very-small-size custom-heart-icon">
+            					<i class="de-icon-heart"></i>
+            				</div>
+                        	<h3><a href="#">BEAUTIFUL FLOWER</a></h3>
+                          	<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce urna urna, imperdiet et purus ut, ultricies sollicitudin arcu. Cras placerat, arcu non faucibus suscipit, ex arcu consectetur enim, eu .....</p>
+                            
+                        </div><!-- END of TITLE & EXCERPT -->
+                            
+     				</div><!-- END of BLOG-ITEM-4 -->    
+                     
+				</div><!-- END of BLOG ITEM ROW 2 -->                    
+                    
+			</div><!-- END of CONTAINER -->     
+            
+        </section><!-- END of CONTENT SECTION -->        
+        
+        
+        
+        <!-- FOOTER SECTION -->
+		<footer>
+            <div class="image-divider fixed-height" style="background-image:url({% static 'presentation/images/mariage3.jpg' %}); height:400px" data-stellar-background-ratio="0.5" >
+                
+                <div class="divider-overlay"></div>
+                    
+                <!-- Use Center Middle Alignment to align middle the content for fixed-height parallax -->
+                <div class="alignment"> 
+                   	<div class="v-align center-middle">                  	
+                    
+                    	<!-- HEART DIVIDER & COUPLE NAME -->
+                    	<div class="container">                 	 
+                    		<div class="row">
+                        		<div class="col-md-12">
+                                        
+                        			<div class="heart-divider animation delay1 fadeInUp">
+                        				<span class="white-line"></span>
+                        				<i class="de-icon-heart pink-heart"></i>
+                        				<i class="de-icon-heart white-heart"></i>
+                        				<span class="white-line"></span>
+                        			</div>
+                                    
+									<div id="footer-couple-name" class="animation delay1 fadeInUp">
+                                		GERRARD & DIANNE
+                                	</div>
+                     
+                     			</div>
+                     		</div>
+                     	</div><!-- END of HEART DIVIDER & COUPLE NAME -->
+                     
+                    </div>
+				</div><!-- END of Center Middle Alignment -->
+                    
+			</div>
+		</footer><!-- END of FOOTER SECTION -->
+        
+ 	</div>  <!-- END of SLIDEBAR CONTENT WRAPPER -->  
+{% endblock %}
